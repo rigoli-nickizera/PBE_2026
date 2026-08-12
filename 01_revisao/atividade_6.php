@@ -1,7 +1,8 @@
 <?php
 
-$dias = ["segunda","terça","quarta","quinta","sexta", "sábado", "domingo"];
-foreach ($dias as $dias)
-    echo $dias;
-    echo "<br>"
+$dia = ["segunda","terça","quarta","quinta","sexta", "sábado", "domingo"];
+    foreach ($dia as $dias){
+    echo "dia:". $dias;
+    echo "<br>";
+    }
 ?>
