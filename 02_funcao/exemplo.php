@@ -1,55 +1,69 @@
 <?php
-$frequencia1 = 90;
 $nota = 9;
-$frequencia2 = 80;
-$nota= 8;
-$frequencia3 = 85;
-$nota = 8;
+$frequencia = 90;
 
-if ($frequencia1 <= 75 ) {
-    echo "Reprovado por falta!";
-}
-elseif ($nota >=9 ) {
-    echo "Aprovado!";
-}
-elseif ($nota >= 5 ){
-    echo "Recuperação!";
+echo "Nicoli Rigoli-";
 
-}
-else {
-    echo "Reprovado!";
+if($frequencia < 75){
+    echo "Reprovado por falta!!!!!!!";
+} elseif($nota >= 9){
+    echo "APROVADO!!";
+} elseif ($nota >= 5 ) {
+    echo "RECUPERAÇÃO";
+} else{
+    echo "REPROVADO";
 }
 
 echo "<br>";
 
-if ($frequencia2 <= 75 ) {
-    echo "Reprovado por falta!";
-}
-elseif ($nota >=9 ) {
-    echo "Aprovado!";
-}
-elseif ($nota >= 5 ){
-    echo "Recuperação!";
+$nota = 9;
+$frequencia = 90;
 
-}
-else {
-    echo "Reprovado!";
+echo "Nicoli Rigoli-";
+
+if($frequencia < 75){
+    echo "Reprovado por falta!!!!!!!";
+} elseif($nota >= 9){
+    echo "APROVADO!!";
+} elseif ($nota >= 5 ) {
+    echo "RECUPERAÇÃO";
+} else{
+    echo "REPROVADO";
 }
 
 echo "<br>";
 
-if ($frequencia3 <= 75 ) {
-    echo "Reprovado por falta!";
-}
-elseif ($nota >=9 ) {
-    echo "Aprovado!";
-}
-elseif ($nota >= 5 ){
-    echo "Recuperação!";
+$nota = 10;
+$frequencia = 50;
 
-}
-else {
-    echo "Reprovado!";
+echo "Maria-";
+
+if($frequencia < 75){
+    echo "Reprovado por falta!!!!!!!";
+} elseif($nota >= 9){
+    echo "APROVADO!!";
+} elseif ($nota >= 5 ) {
+    echo "RECUPERAÇÃO";
+} else{
+    echo "REPROVADO";
 }
 
+echo "<br>";
+
+$nota = 4;
+$frequencia = 75;
+
+echo "Lavinia-";
+
+if($frequencia < 75){
+    echo "Reprovado por falta!!!!!!!";
+} elseif($nota >= 9){
+    echo "APROVADO!!";
+} elseif ($nota >= 5 ) {
+    echo "RECUPERAÇÃO";
+} else{
+    echo "REPROVADO";
+}
+
+echo "<br>";
 ?>
