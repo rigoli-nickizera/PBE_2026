@@ -12,6 +12,7 @@ echo "desconto:". $resultado ["desconto"] . "<br>";
 echo "imposto:". $resultado ["imposto"] . "<br>";
 echo "total:". $resultado ["total"] . "<br>";
 
-
+$TotalcomFrete = calculoFrete ($resultado['total']);
+echo "Total com frete" . $TotalcomFrete;
 
 ?>

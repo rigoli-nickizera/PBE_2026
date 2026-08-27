@@ -20,3 +20,11 @@ function calcularPedido($nomeProduto, $pUnitario, $qntd, $desconto = 0, $imposto
         "total" => $totalFinal
     ];
 }
+function calculoFrete ($totalFinal){
+    $frete = $totalFinal * (10/100);
+    $TotalcomFrete = $frete + $totalFinal;
+
+return $TotalcomFrete;
+
+}
+?>
