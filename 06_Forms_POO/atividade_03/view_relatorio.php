@@ -46,7 +46,6 @@
     </table>
 
     <h2>Salário bruto: R$ <?= number_format($funcionario->calcularSalarioBruto(), 2, ',', '.') ?></h2>
-
     <h2>Salário líquido: R$ <?= number_format($funcionario->calcularSalarioLiquido(), 2, ',', '.') ?></h2>
 
     <a href="view.php">Cadastrar outro funcionário</a>
